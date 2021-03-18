@@ -1,4 +1,8 @@
 "
+!Set viz
+
+!!Features wanted
+
 Collection extend [
     power [
         ^(0 to: (1 bitShift: self size) - 1) readStream collect: [ :each || i |
@@ -7,7 +11,20 @@ Collection extend [
     ]
 ].
 
-https://rosettacode.org/wiki/Power_set#Smalltalk
+*https://rosettacode.org/wiki/Power_set#Smalltalk*
+
+a binary relation R is called well-founded on a class X 
+if every non-empty subset S U. X 
+has a minimal element with respect to R, 
+t
+hat is, an element m not related by sRm (for instance, ""s is not smaller than m"") for any s e. S.
+
+show examples of sets and relationships
+
+a relation is well founded if
+
+{\displaystyle (\forall S\subseteq X)\;[S\neq \emptyset \implies (\exists m\in S)(\forall s\in S)\lnot (sRm)].}{\displaystyle (\forall S\subseteq X)\;[S\neq \emptyset \implies (\exists m\in S)(\forall s\in S)\lnot (sRm)].}
+
 "
 Class {
 	#name : #MmSetVizSet,
