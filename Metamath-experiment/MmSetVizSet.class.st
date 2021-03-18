@@ -1,7 +1,6 @@
 "
 !Set viz
 
-!!Features wanted
 
 Collection extend [
     power [
@@ -22,6 +21,10 @@ hat is, an element m not related by sRm (for instance, ""s is not smaller than m
 show examples of sets and relationships
 
 a relation is well founded if
+
+In order theory, a partial order is called well-founded if the corresponding strict order is a well-founded relation. If the order is a total order then it is called a well-order.
+
+In set theory, a set x is called a well-founded set if the set membership relation is well-founded on the transitive closure of x. The axiom of regularity, which is one of the axioms of Zermelo–Fraenkel set theory, asserts that all sets are well-founded.
 
 {\displaystyle (\forall S\subseteq X)\;[S\neq \emptyset \implies (\exists m\in S)(\forall s\in S)\lnot (sRm)].}{\displaystyle (\forall S\subseteq X)\;[S\neq \emptyset \implies (\exists m\in S)(\forall s\in S)\lnot (sRm)].}
 
